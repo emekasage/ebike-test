@@ -34,7 +34,7 @@ export default class Testimonials extends Component {
       nextArrow: <SampleNextArrow />,
     };
     return (
-      <div className="mx-12 lg:mx-44 mt-8 mb-12 lg:my-14 overflow-x-hidden">
+      <div className="mx-12 lg:mx-44 mt-8 mb-12 lg:my-16">
         <div
           className="relative p-10 rounded-xl z-10"
           style={{ background: "#FCB72B" }}
