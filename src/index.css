@@ -1,13 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Mulish", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h2,
+h3 {
+  font-size: revert !important;
+  font-weight: revert !important;
+}
+
+.find-btn {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 189, 55, 0.58) 0%,
+    #ffbd37 100%
+  );
+}
+
+.bike-card {
+  box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.06);
+}
+
+.slick-prev {
+  width: 48px !important;
+  height: 48px !important;
+  border-radius: 100px !important;
+  position: absolute !important;
+  margin-top: 15.5rem !important;
+  margin-left: 65rem !important;
+}
+.slick-next {
+  width: 48px !important;
+  height: 48px !important;
+  border-radius: 100px !important;
+  position: absolute !important;
+  margin-top: 15.4rem !important;
+  margin-right: 10rem !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  content: "" !important;
+}
+
+.slick-initialized .slick-slide {
+  margin: 0 15px !important;
+}
+
+.bikes:hover {
+  border: 2px solid #fcb72b;
+  box-sizing: border-box;
+  color: #fcb72b;
+}
+
+.bike-type {
+  box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.06);
+}
+
+.testimonials {
+  display: flex !important;
+}
+
+.slick-dots {
+  bottom: -75px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ffbd37 !important;
+}
+
+.testimonial-arrow {
+  margin-top: 12rem !important;
+}
+
+.slick-track {
+  width: 9609px !important;
+}
+
+/***** MEDIA QUERIES *****/
+@media only screen and (max-width: 913px) and (min-width: 768px) {
+  .slick-prev {
+    margin-left: 30rem !important;
+  }
+
+  .hybrid-info {
+    width: 350px !important;
+  }
+}
+@media only screen and (max-width: 640px) and (min-width: 520px) {
+}
+@media only screen and (max-width: 415px) and (min-width: 389px) {
+  input.find-form {
+    width: 350px !important;
+  }
+
+  .find-btn {
+    margin-top: 10px;
+    margin-right: 17px;
+  }
+
+  #header-lottie {
+    width: 300px !important;
+    margin-left: 55px;
+    margin-top: -20px !important;
+  }
+
+  .slick-prev {
+    margin-left: 5rem !important;
+  }
+
+  .group-bg {
+    right: 0 !important;
+    visibility: hidden !important;
+  }
+
+  .hybrid-bikes {
+    margin: 0 55px !important;
+  }
+
+  .hybrid-info {
+    width: 320px !important;
+  }
+
+  .bike-types {
+    margin-left: 5.5rem !important;
+  }
+
+  .testimonials {
+    display: block !important;
+  }
+
+  .testimonials .quote {
+    width: 220px !important;
+  }
+}
+
+@media only screen and (max-width: 388px) and (min-width: 359px) {
+  input.find-form {
+    width: 325px !important;
+  }
+
+  .find-btn {
+    margin-top: 10px;
+    margin-right: 15px;
+  }
+
+  #header-lottie {
+    width: 300px !important;
+    margin-left: 45px;
+    margin-top: -40px !important;
+  }
+
+  .slick-prev {
+    margin-left: 3.5rem !important;
+  }
+
+  .group-bg {
+    right: 0 !important;
+    visibility: hidden !important;
+  }
+
+  .hybrid-info {
+    width: 300px !important;
+  }
+
+  .testimonials {
+    display: block !important;
+  }
+
+  .testimonials .quote {
+    width: 250px !important;
+  }
 }
