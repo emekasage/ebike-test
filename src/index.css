@@ -133,8 +133,38 @@ h3 {
     display: block !important;
   }
 
+  .testimonial-info {
+    width: 9rem !important;
+  }
+
+  .testimonial-info2 {
+    width: 6.5rem !important;
+    margin-left: -0.5rem;
+  }
+
+  .testimonial-info3 {
+    width: 6.5rem !important;
+    margin-left: -2.5rem;
+  }
+
   .testimonials .quote {
     width: 220px !important;
+    margin-left: -2rem;
+  }
+
+  .quote2 {
+    width: 200px !important;
+    margin-left: -3.5rem;
+  }
+
+  .quote3 {
+    width: 200px !important;
+    margin-left: -5rem;
+  }
+
+  .testimonial-arrow {
+    margin-top: 20.5rem !important;
+    margin-right: -1rem !important;
   }
 }
 
@@ -171,7 +201,37 @@ h3 {
     display: block !important;
   }
 
+  .testimonial-info {
+    width: 6.5rem !important;
+  }
+
+  .testimonial-info2 {
+    width: 6.5rem !important;
+    margin-left: -1.5rem;
+  }
+
+  .testimonial-info3 {
+    width: 6.5rem !important;
+    margin-left: -3.5rem;
+  }
+
   .testimonials .quote {
-    width: 250px !important;
+    width: 190px !important;
+    margin-left: -2.5rem;
+  }
+
+  .quote2 {
+    width: 190px !important;
+    margin-left: -4rem;
+  }
+
+  .quote3 {
+    width: 190px !important;
+    margin-left: -6rem;
+  }
+
+  .testimonial-arrow {
+    margin-top: 19.7rem !important;
+    margin-right: -1rem !important;
   }
 }

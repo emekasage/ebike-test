@@ -32,6 +32,32 @@ export default class Testimonials extends Component {
       slidesToShow: 1,
       slidesToScroll: 1,
       nextArrow: <SampleNextArrow />,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+          },
+        },
+        {
+          breakpoint: 640,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 1,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+          },
+        },
+      ],
     };
     return (
       <div className="mx-12 lg:mx-44 mt-8 mb-12 lg:my-16">
@@ -57,7 +83,7 @@ export default class Testimonials extends Component {
           </svg>
           <Slider {...settings}>
             <div className="max-w-3xl block lg:flex justify-between items-center mx-auto my-8 testimonials">
-              <div className="w-28 lg:w-48 space-y-1">
+              <div className="w-28 lg:w-48 space-y-1 testimonial-info">
                 <img
                   src="../../assets/Mask-Group.png"
                   alt="testimonial"
@@ -82,7 +108,7 @@ export default class Testimonials extends Component {
               </div>
             </div>
             <div className="max-w-3xl lg:flex justify-between items-center mx-auto my-8 testimonials">
-              <div className="w-28 lg:w-48 space-y-1">
+              <div className="w-28 lg:w-48 space-y-1 testimonial-info2">
                 <img
                   src="../../assets/Mask-Group.png"
                   alt="testimonial"
@@ -96,7 +122,7 @@ export default class Testimonials extends Component {
                 </p>
               </div>
               <div
-                className="quote mr-12 lg:mr-0 mt-4 lg:mt-0"
+                className="quote2 mr-12 lg:mr-0 mt-4 lg:mt-0"
                 style={{ width: "420px" }}
               >
                 <p className="text-white font-normal text-lg">
@@ -107,7 +133,7 @@ export default class Testimonials extends Component {
               </div>
             </div>
             <div className="max-w-3xl lg:flex justify-between items-center mx-auto my-8 testimonials">
-              <div className="w-28 lg:w-48 space-y-1">
+              <div className="w-28 lg:w-48 space-y-1 testimonial-info3">
                 <img
                   src="../../assets/Mask-Group.png"
                   alt="testimonial"
@@ -121,7 +147,7 @@ export default class Testimonials extends Component {
                 </p>
               </div>
               <div
-                className="quote mr-12 lg:mr-0 mt-4 lg:mt-0"
+                className="quote3 mr-12 lg:mr-0 mt-4 lg:mt-0"
                 style={{ width: "420px" }}
               >
                 <p className="text-white font-normal text-lg">
